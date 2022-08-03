@@ -1,0 +1,47 @@
+.logo {
+  font-weight: bold;
+}
+.teachMeBox {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+.coursesBg {
+  height: 100%;
+  width: 100%;
+  background-color: #7d9bad;
+}
+.welcome {
+  font-weight: bold;
+  color: #3ca1db;
+}
+
+.teachMeBg {
+  background-color: #f4f4f7;
+}
+.icons {
+  font-size: 40px;
+  color: #3ca1db;
+}
+.btn-sub {
+  width: 60%;
+  height: 60px;
+}
+.footer {
+  background: #11161a;
+}
+.contact {
+  color: #3ca1db;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .phone-img {
+   
+   height: 30%;
+   width: 30%;
+  
+  
+   margin-left: 30%;
+  }
+}
