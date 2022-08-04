@@ -17,17 +17,10 @@ function AutoLayoutExample() {
     <div className="coursesBg pt-5 pb-5">
       <Container>
         <h4 className="text-center welcome text-white">OUR COURSES</h4>
-        <p className="text-center text-white mb-5">
-         
-        </p>
-        <Row className="mt-5">
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+        <p className="text-center text-white mb-5"></p>
+        <Row>
+          <Col className="d-flex justify-content-center mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={HTML} className="phone-img" />
               <Card.Body>
                 <Card.Title>HTML</Card.Title>
@@ -35,61 +28,56 @@ function AutoLayoutExample() {
                   Is the code that is used to structure a web page and its
                   content.
                 </Card.Text>
-                <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noreferrer">
-                <Button variant="primary">
-                  Read more...
-                </Button>
+                <a
+                  href="https://en.wikipedia.org/wiki/HTML"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
                 </a>
               </Card.Body>
             </Card>
           </Col>
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+          <Col className="mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={CSS} className="phone-img" />
               <Card.Body>
                 <Card.Title>CSS</Card.Title>
                 <Card.Text>
                   CSS stands for Cascading Style Sheet is mainly for styling.
                 </Card.Text>
-                <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer">
-                <Button variant="primary">Read more...</Button>
+                <a
+                  href="https://en.wikipedia.org/wiki/CSS"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
                 </a>
               </Card.Body>
             </Card>
           </Col>
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+        </Row>
+        <Row>
+          <Col className="d-flex justify-content-center mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={Bootstrap} className="phone-img" />
               <Card.Body>
                 <Card.Title>BOOTSTRAP</Card.Title>
                 <Card.Text>
                   Bootstrap is a free and open-source CSS framework.
                 </Card.Text>
-               <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" rel="noreferrer">
-               <Button variant="primary">Read more...</Button>
-               </a>
+                <a
+                  href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row className="mt-3">
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+          <Col className="mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={JavaScript} />
               <Card.Body>
                 <Card.Title>JAVASCRIPT</Card.Title>
@@ -97,38 +85,39 @@ function AutoLayoutExample() {
                   Is a programming language that is one of the core
                   technologies.
                 </Card.Text>
-               <a href="https://en.wikipedia.org/wiki/JavaScript" taret="_blank" rel="noreferrer">
-               <Button variant="primary">Read more...</Button>
-               </a>
+                <a
+                  href="https://en.wikipedia.org/wiki/JavaScript"
+                  taret="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+        </Row>
+
+        <Row className="mt-3">
+          <Col className="d-flex justify-content-center mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={React} className="phone-img" />
               <Card.Body>
                 <Card.Title>REACT</Card.Title>
                 <Card.Text>
                   React is a free and open-source front-end JavaScript library.
                 </Card.Text>
-                <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" targte="_blank" rel="noreferrer">
-                <Button variant="primary">Read more...</Button>
+                <a
+                  href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+                  targte="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
                 </a>
               </Card.Body>
             </Card>
           </Col>
-          <Col
-            lg="4"
-            md="6"
-            sm="12"
-            className="d-flex justify-content-center mt-3"
-          >
-            <Card style={{ width: "18rem", height: "320px" }}>
+          <Col className="d-flex justify-content-center mt-3">
+            <Card style={{ width: "100%", height: "320px" }}>
               <Card.Img variant="top" src={Node} className="phone-img" />
               <Card.Body>
                 <Card.Title>NODE JS</Card.Title>
@@ -136,8 +125,12 @@ function AutoLayoutExample() {
                   Node.js is an open-source, cross-platform, back-end JavaScript
                   .
                 </Card.Text>
-                <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noreferrer">
-                <Button variant="primary">Read more...</Button>
+                <a
+                  href="https://en.wikipedia.org/wiki/Node.js"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button variant="primary">Read more...</Button>
                 </a>
               </Card.Body>
             </Card>
