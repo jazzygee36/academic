@@ -20,7 +20,7 @@ function AutoLayoutExample() {
         <p className="text-center text-white mb-5"></p>
         <Row>
           <Col className="d-flex justify-content-center mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={HTML} className="phone-img" />
               <Card.Body>
                 <Card.Title>HTML</Card.Title>
@@ -39,7 +39,7 @@ function AutoLayoutExample() {
             </Card>
           </Col>
           <Col className="mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={CSS} className="phone-img" />
               <Card.Body>
                 <Card.Title>CSS</Card.Title>
@@ -59,7 +59,7 @@ function AutoLayoutExample() {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={Bootstrap} className="phone-img" />
               <Card.Body>
                 <Card.Title>BOOTSTRAP</Card.Title>
@@ -77,7 +77,7 @@ function AutoLayoutExample() {
             </Card>
           </Col>
           <Col className="mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={JavaScript} />
               <Card.Body>
                 <Card.Title>JAVASCRIPT</Card.Title>
@@ -99,7 +99,7 @@ function AutoLayoutExample() {
 
         <Row className="mt-3">
           <Col className="d-flex justify-content-center mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={React} className="phone-img" />
               <Card.Body>
                 <Card.Title>REACT</Card.Title>
@@ -117,7 +117,7 @@ function AutoLayoutExample() {
             </Card>
           </Col>
           <Col className="d-flex justify-content-center mt-3">
-            <Card style={{ width: "100%", height: "320px" }}>
+            <Card>
               <Card.Img variant="top" src={Node} className="phone-img" />
               <Card.Body>
                 <Card.Title>NODE JS</Card.Title>

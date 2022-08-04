@@ -3,13 +3,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import Navbar from "../navbar"
+import Navbar from "../navbar";
 import "../index.css";
 
 const Plan = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar />
 
       <div className="plan-section pt-4 pb-4">
         <Container>
@@ -19,7 +19,7 @@ const Plan = () => {
             is not refundable.
           </p>
           <Row>
-            <Col  sm-12>
+            <Col>
               <div className="subscription-plan p-3">
                 <h3>Visible Tutorial</h3>
                 <hr />
@@ -34,8 +34,10 @@ const Plan = () => {
                 </Link>
               </div>
             </Col>
-            <Col sm-12>
-              <div className="subscription-plan p-3">
+          </Row>
+          <Row>
+            <Col>
+              <div className="subscription-plan p-3 mt-5">
                 <h3>Visual Tutorial</h3>
                 <hr />
                 <h6 className="details">Plan details</h6>
