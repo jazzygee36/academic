@@ -54,7 +54,7 @@ const Plan = () => {
           </Row>
         </Container>
       </div>
-      <h2 className="CodingTek mt-5">CodingTek Academic</h2>
+      <marquee className="CodingTek mt-5"><h3>CodingTek Academic</h3></marquee>
     </>
   );
 };
