@@ -122,8 +122,7 @@ function AutoLayoutExample() {
               <Card.Body>
                 <Card.Title>NODE JS</Card.Title>
                 <Card.Text>
-                  Node.js is an open-source, cross-platform, back-end JavaScript
-                  .
+                  Node.js is an open-source, back-end JavaScript.
                 </Card.Text>
                 <a
                   href="https://en.wikipedia.org/wiki/Node.js"

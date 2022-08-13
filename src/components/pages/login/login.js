@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/login", {
+    const response = await fetch("https://codingtek.herokuapp.com/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -23,7 +23,7 @@ const Login = () => {
     });
     const data = await response.json();
     if (data.user) {
-      window.location.href="/index"
+      window.location.href = "/index";
     } else {
       alert("Please check your email and password");
     }

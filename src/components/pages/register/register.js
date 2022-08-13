@@ -13,18 +13,21 @@ const Register = () => {
 
   const handleRegister = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        phone,
-        password,
-      }),
-    });
+    const response = await fetch(
+      "https://codingtek.herokuapp.com/api/register",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          password,
+        }),
+      }
+    );
     const data = await response.json();
     if (data.status === "ok") {
       navigate("/login");
