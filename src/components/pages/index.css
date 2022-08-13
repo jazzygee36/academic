@@ -59,6 +59,18 @@
 
   margin-left: 30%;
 }
+.auth-log {
+  width: 75%;
+  border-radius: 8px;
+  margin: 40% auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.Form.Control::placeholder {
+  border-bottom: 1px solid black;
+}
+.reg-bg {
+  background: #3ca1db4b;
+}
 @media screen and (max-width: 500px) {
   .phone-img {
     height: 20%;

@@ -25,16 +25,16 @@ const Navbarr = () => {
             >
               {/* <Nav.Link href="#">Home</Nav.Link> */}
 
-              <Nav.Link href="/">Home</Nav.Link>
+              {/* <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="../">About Us</Nav.Link>
 
               <Nav.Link href="#courses">Courses</Nav.Link>
-              <Nav.Link href="#contacts">Contacts</Nav.Link>
+              <Nav.Link href="#contacts">Contacts</Nav.Link> */}
             </Nav>
 
-            <Link to="/plan">
+            <Link to="/login">
               <Button variant="danger" className="mt-3">
-                Choose a plan
+                Login
               </Button>
             </Link>
             {/* </Form> */}
