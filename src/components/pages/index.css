@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.landing-page-banner {
+  background-image: url("../../assets/caro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vw;
+}
 .top-navbar-section {
   position: fixed;
   width: 100%;
@@ -96,4 +103,7 @@
 }
 .CodingTek {
   font-weight: bold;
+}
+.card-layout {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
