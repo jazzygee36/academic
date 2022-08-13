@@ -22,7 +22,7 @@ const Index = () => {
         </Navbar.Brand>
         <div className="menu-container">
           <Link to="/login">
-            <Button variant="danger">Login</Button>
+            <Button variant="success">Login</Button>
           </Link>{" "}
           <Link to="register">
             <Button variant="secondary">Register</Button>{" "}

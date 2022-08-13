@@ -49,15 +49,17 @@ const AppIndex = () => {
 
   return (
     <>
-      <Navbar bg="light" expand="lg">
-        <Container fluid>
-          <Navbar.Brand href="/" className="logo">
-            {" "}
-            CodingTek Academic
-          </Navbar.Brand>
-          <Avatar size="40" name="C T A" />
-        </Container>
-      </Navbar>
+      <div className="mainPage-bg">
+        <Navbar expand="lg">
+          <Container fluid>
+            <Navbar.Brand href="/" className="logo text-white">
+              {" "}
+              CodingTek Academic
+            </Navbar.Brand>
+            <Avatar size="40" name="C T A" />
+          </Container>
+        </Navbar>
+      </div>
       <Carousel />
       <div className=" pt-5 pb-5">
         <h4 className="text-center welcome ">OUR COURSES</h4>

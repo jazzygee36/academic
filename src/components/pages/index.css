@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .landing-page-banner {
-  background-image: url("../../assets/caro.png");
+  background-image: url("../../assets/student.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,4 +106,7 @@
 }
 .card-layout {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.mainPage-bg {
+  background-color: rgb(16, 16, 95);
 }
