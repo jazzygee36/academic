@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../index.css";
 
 const Login = () => {
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -23,7 +25,8 @@ const Login = () => {
     });
     const data = await response.json();
     if (data.user) {
-      window.location.href = "/index";
+      navigate("/index");
+      // window.location.href = "/index";
     } else {
       alert("Please check your email and password");
     }

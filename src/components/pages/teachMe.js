@@ -11,14 +11,9 @@ function AutoLayoutExample() {
         <Container>
           <h4 className="text-center welcome ">About Us</h4>
           <p className="text-center">
-            We are an education <strong>Tech</strong> organisation determined to
-            redefine teaching-learning processes and experiences in schools,
-            homes, and communities using technology and innovation to improve
-            the quality of education at all levels for for both the old and
-            young. We leverage cutting edge technologies to make the learning
-            environment suitable for all. We equally provise capacity building
-            programmes to teachers, students, and other stakeholders to support
-            them in achieving global competitiveness.
+            Expand your career opportunities with us take one of our courses and
+            learn how to code using this incredibly useful language. You’ll
+            learn how to build everything from games to sites to apps.
           </p>
           <Row>
             <Col className="teachMeBox p-5 mb-4" lg="4" md="4" sm="12">
